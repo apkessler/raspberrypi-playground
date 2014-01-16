@@ -1,7 +1,7 @@
 import picamera
 import send_email
 from time import sleep
-
+import getpass
 
 def main():
     camera = picamera.PiCamera()
